@@ -225,11 +225,11 @@ cscript ospp.vbs /sethst:k1.yema.ga && cscript ospp.vbs /act
 - <https://docs.microsoft.com/en-us/DeployOffice/vlactivation/gvlks>
 
 ### 原版下载
-<https://msdn.itellyou.cn>
-<https://tb.rg-adguard.net/public.php?lang=zh-CN>
-<https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool>
-<https://uup.rg-adguard.net>
-<https://pkeytool.live/MSProduct>
+- <https://msdn.itellyou.cn>
+- <https://tb.rg-adguard.net/public.php?lang=zh-CN>
+- <https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool>
+- <https://uup.rg-adguard.net>
+- <https://pkeytool.live/MSProduct>
 
 ### 免责声明
 - 本站所有展示的以及涉及到的包括但不限于文字、段落、教程、代码、脚本、软件等，均来自互联网文档以及微软官方文档收集整理。由于收集过程长且杂碎，未能一一标注出处。如果侵犯到了您的权益，请联系我们删除。
