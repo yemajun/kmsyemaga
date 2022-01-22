@@ -18,9 +18,9 @@ slmgr -ato #激活系统
 ```
 
 ### 备用服务
-- `kms.cangshui.net`
-- `skms.netnr.eu.org`
 - `k1.yema.ga`
+- `k2.yema.ga`
+- `k3.yema.ga`
 
 
 ### Windows Server 密钥
@@ -224,11 +224,35 @@ cscript ospp.vbs /sethst:k1.yema.ga && cscript ospp.vbs /act
 ### Office 密钥列表
 - <https://docs.microsoft.com/en-us/DeployOffice/vlactivation/gvlks>
 
-### Help
-- <https://teddysun.com/530.html>
-- <https://03k.org/kms.html>
-- <http://kms.cangshui.net>
-- <https://github.com/netnr/kms>
+### 下载链接
 
-### Source
-- <https://github.com/yemajun/kmsyemaga>
+操作系统版本 | 链接
+--- | ---
+[最新] Windows11 原版镜像（版本 21H2_Dec_2021 发布时间 2021-12-21） | ed2k://|file|zh-cn_windows_11_business_editions_updated_dec_2021_x64_dvd_ff426bea.iso|5520793600|F563A821456E1392358A2E081C2521D5|/
+
+[最新] Windows 10 Enterprise LTSC 2021 (x64) 原版镜像 | ed2k://|file|SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO|5044211712|1555B7DCA052B5958EE68DB58A42408D|/
+
+[推荐] Windows 10 Enterprise LTSC 2019 (x64) 原版镜像 | ed2k://|file|cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso|4478906368|E7C526499308841A4A6D116C857DB669|/
+
+[好评] Windows 10 Enterprise LTSB 2016 (x64) 原版镜像 | ed2k://|file|cn_windows_10_enterprise_2016_ltsb_x64_dvd_9060409.iso|3821895680|FF17FF2D5919E3A560151BBC11C399D1|/
+
+[最终] Windows10 原版镜像（版本 21H2_Dec_2021 发布时间 2021-12-21） | ed2k://|file|zh-cn_windows_10_business_editions_version_21h2_updated_dec_2021_x64_dvd_9840f50d.iso|5827766272|2AB3FCD69BDC53A27201D1534C2CDFE3|/
+
+Windows10 神州网信政府版（版本 V2020-L 发布时间 2020-01-10） | ed2k://|file|CMGE_V2020-L.1207.iso|4736782336|8F2FC33635D79963CBB0A43C4A916200|/
+
+Windows7 原版镜像 专业批量版 | ed2k://|file|cn_windows_7_professional_with_sp1_vl_build_x64_dvd_u_677816.iso|3266004992|5A52F4CCEFA71797D58389B397038B2F|/
+
+Windows7 原版镜像 企业版 | ed2k://|file|cn_windows_7_enterprise_with_sp1_x64_dvd_u_677685.iso|3265574912|E9DB2607EA3B3540F3FE2E388F8C53C4|/
+
+Office2019 原版镜像 | ed2k://|file|cn_office_professional_plus_2019_x86_x64_dvd_5e5be643.iso|3775004672|1E4FFA5240F21F60DC027F73F1C62FF4|/
+
+Office2016 原版镜像 | ed2k://|file|cn_office_professional_plus_2016_x86_x64_dvd_6969182.iso|2588266496|27EEA4FE4BB13CD0ECCDFC24167F9E01|/
+
+Office2013 原版镜像 | ed2k://|file|SW_DVD5_Office_Professional_Plus_2013_64Bit_ChnSimp_MLF_X18-55285.ISO|958879744|678EF5DD83F825E97FB710996E0BA597|/
+
+Office2010 原版镜像 | ed2k://|file|SW_DVD5_Office_Professional_Plus_2010w_SP1_64Bit_ChnSimp_CORE_MLF_X17-76742.iso|1612515328|032320121E0EE36D8F0C32EC89CA0AB9|/
+
+### 免责声明
+- 本站所有展示的以及涉及到的包括但不限于文字、段落、教程、代码、脚本、软件等，均来自互联网文档以及微软官方文档收集整理。由于收集过程长且杂碎，未能一一标注出处。如果侵犯到了您的权益，请联系我们删除。
+- 支持正版 Windows 微软官方购买链接： <https://www.microsoft.com/zh-cn/windows/get-windows-10>
+- 支持正版 Office 微软官方购买链接： <https://products.office.com/zh-cn/compare-all-microsoft-office-products>
