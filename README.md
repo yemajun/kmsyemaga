@@ -4,13 +4,13 @@
 支持 Office 2010/2013/2016/2019/LTSC2021/2022   Office 365   Microsoft 365
 
 ### 激活步骤一
-以管理员命令执行以下命令
+以管理员权限执行以下命令
 ```
 slmgr /skms k1.yema.ga && slmgr /ato
 ```
 
 ### 激活步骤二
-以管理员命令分别执行以下命令
+以管理员权限分别执行以下命令
 ```
 slmgr -skms k1.yema.ga #设置服务
 slmgr -ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX #安装版本对应秘钥
@@ -211,12 +211,12 @@ Windows 7 企业版 E | C29WB-22CC8-VJ326-GHFJW-H9DH4
 
 ----------
 ### Office 激活步骤
-1. 以管理员命令进入Office安装目录（不同Office版本目录不同，请自行查找安装目录修改命令）
+1. 以管理员权限执行以下命令进入Office安装目录（不同Office版本目录不同，请自行查找安装目录修改命令）
 ```
 cd "C:\Program Files\Microsoft Office\Office16"
 ```
 
-2. 以管理员命令执行以下命令
+2. 以管理员权限执行以下命令
 ```
 cscript ospp.vbs /sethst:k1.yema.ga && cscript ospp.vbs /act
 ```
