@@ -4,7 +4,7 @@
 支持 Office 2010/2013/2016/2019/LTSC2021/2022   Office 365   Microsoft 365
 
 ### 激活步骤一
-以管理员命令执行执行以下命令
+以管理员命令执行以下命令
 ```
 slmgr /skms k1.yema.ga && slmgr /ato
 ```
@@ -152,6 +152,13 @@ Windows 10 企业版 N | DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
 Windows 10 企业版 G | YYVX9-NTFWV-6MDM3-9PT4T-4M68B
 Windows 10 企业版 G N | 44RPN-FTY23-9VTTB-MP9BX-T84FV
 
+#### Windows 10 LTSC 2021
+
+操作系统版本 | KMS 客户端安装密钥
+--- | ---
+Windows 10 企业版 LTSC 2021   | M7XTQ-FN8P6-TTKYV-9D4CC-J462D
+Windows 10 企业版 N LTSC 2021 | 92NFX-8DJQP-P6BBQ-THF9C-7CG2H
+
 #### Windows 10 LTSC 2019
 
 操作系统版本 | KMS 客户端安装密钥
@@ -202,24 +209,17 @@ Windows7 企业版 | 33PXH-7Y6KF-2VJC9-XBBR8-HVTHH
 Windows 7 企业版 N | YDRBP-3D83W-TY26F-D46B2-XCKRJ
 Windows 7 企业版 E | C29WB-22CC8-VJ326-GHFJW-H9DH4
 
-### 激活说明
-- KMS 激活有 180 天期限，此期限称为激活有效间隔
-- 若要保持激活状态，您的系统必须通过至少每 180 天连接一次 KMS 服务器来续订激活
-- 默认情况下，系统每 7 天自动进行一次激活续订尝试
-- 在续订客户端激活之后，激活有效间隔重新开始
-- 综上所述，只要您不超过 180 天以上无法连接互联网，系统会自行续期保持激活状态
-
 ----------
-### Office（VOL 版本）激活步骤（管理员命令执行）
-1. 进入安装目录 `cd"C:\Program Files (x86)\Microsoft Office\Office16"`
-    - 32 位默认一般为 `C:\Program Files (x86)\Microsoft Office\Office16`
-    - 64 位默认一般为 `C:\Program Files\Microsoft Office\Office16`
-    - **Office16** 是 **Office 2016**
-    - **Office15** 是 **Office 2013**
-    - **Office14** 是 **Office 2010**
-    - 打开以上所说的目录，应该有个 `OSPP.VBS` 文件
-2. 注册 KMS 服务 `cscript ospp.vbs/sethst:skms.netnr.eu.org`
-3. 激活 Office `cscript ospp.vbs/act`
+### Office 激活步骤
+1. 以管理员命令进入Office安装目录（不同Office版本目录不同，请自行查找安装目录修改命令）
+```
+cd "C:\Program Files\Microsoft Office\Office16"
+```
+
+2. 以管理员命令执行以下命令
+```
+cscript ospp.vbs /sethst:k1.yema.ga && cscript ospp.vbs /act
+```
 
 ### Office 密钥列表
 - <https://docs.microsoft.com/en-us/DeployOffice/vlactivation/gvlks>
