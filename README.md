@@ -1,20 +1,20 @@
 # KMS
-KMS 激活服务，slmgr 命令激活 Windows 系统、Office
-支持 Windows Vista/7/8/8.1/10/11   LTSB/LTSC系列   神州网信系列   Windows server 2008/2008R2/2012/2012R2/2016/2019/2022
+支持 Windows 7/8/8.1/10/11   LTSB/LTSC系列   神州网信系列   Windows server 2008/2008R2/2012/2012R2/2016/2019/2022
+
 支持 Office 2010/2013/2016/2019/LTSC2021/2022   Office 365   Microsoft 365
 
-### 激活步骤1（管理员命令执行）
-1. 开始菜单-搜索“cmd”-找到“命令提示符”-右键“以管理员身份运行”
-2. 执行以下命令（复制命令-右键粘贴）
+### 激活步骤一
+以管理员命令执行执行以下命令
 ```
 slmgr /skms k1.yema.ga && slmgr /ato
 ```
 
-### 激活步骤2（管理员命令执行）
-
-1. 设置服务 `slmgr -skms k1.yema.ga`
-2. 安装密钥 `slmgr -ipk 版本对应秘钥`
-3. 激活系统 `slmgr -ato`
+### 激活步骤二（管理员命令执行）
+```
+slmgr -skms k1.yema.ga #设置服务
+slmgr -ipk 版本对应秘钥 #安装密钥
+`slmgr -ato` #激活系统
+```
 
 ### 备用服务
 - `kms.cangshui.net`
