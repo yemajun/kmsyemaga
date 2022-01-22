@@ -135,7 +135,7 @@ Windows 11 企业版 N | DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
 Windows 11 企业版 G | YYVX9-NTFWV-6MDM3-9PT4T-4M68B
 Windows 11 企业版 G N | 44RPN-FTY23-9VTTB-MP9BX-T84FV
 
-#### Windows 10 (半年频道版本)
+#### Windows 10
 
 操作系统版本 | KMS 客户端安装密钥
 --- | ---
