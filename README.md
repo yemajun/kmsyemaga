@@ -1,15 +1,25 @@
 # KMS
 KMS 激活服务，slmgr 命令激活 Windows 系统、Office
+支持 Windows Vista/7/8/8.1/10/11   LTSB/LTSC系列   神州网信系列   Windows server 2008/2008R2/2012/2012R2/2016/2019/2022
+支持 Office 2010/2013/2016/2019/LTSC2021/2022   Office 365   Microsoft 365
 
-### 激活步骤（管理员命令执行）
-1. 设置服务 `slmgr -skms skms.netnr.eu.org`
+### 激活步骤1（管理员命令执行）
+1. 开始菜单-搜索“cmd”-找到“命令提示符”-右键“以管理员身份运行”
+2. 执行以下命令（复制命令-右键粘贴）
+```
+slmgr /skms k1.yema.ga && slmgr /ato
+```
+
+### 激活步骤2（管理员命令执行）
+
+1. 设置服务 `slmgr -skms k1.yema.ga`
 2. 安装密钥 `slmgr -ipk 版本对应秘钥`
 3. 激活系统 `slmgr -ato`
 
-### 可用服务
+### 备用服务
 - `kms.cangshui.net`
-- `skms.netnr.eu.org` 维护 **CNAME** 指向有效的服务
-+ `telnet skms.netnr.eu.org 1688` 测试服务是否可用
+- `skms.netnr.eu.org`
+- `k1.yema.ga`
 
 ### 安装服务
 - ref: <https://github.com/Wind4/vlmcsd/releases>
@@ -18,15 +28,7 @@ KMS 激活服务，slmgr 命令激活 Windows 系统、Office
 
 ### 安装服务（Linux）
 ```
-# 一键安装脚本
-wget --no-check-certificate https://raw.githubusercontent.com/teddysun/across/master/kms.sh && chmod +x kms.sh && ./kms.sh
-
-netstat -nxtlp | grep 1688 # 查看端口
-/etc/init.d/kms status # 状态
-/etc/init.d/kms start # 启动
-/etc/init.d/kms stop # 停止
-/etc/init.d/kms restart # 重启
-./kms.sh uninstall # 卸载
+slmgr /skms k1.yema.ga && slmgr /ato
 ```
 <https://teddysun.com/530.html>
 
