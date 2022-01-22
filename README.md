@@ -9,11 +9,12 @@
 slmgr /skms k1.yema.ga && slmgr /ato
 ```
 
-### 激活步骤二（管理员命令执行）
+### 激活步骤二
+以管理员命令分别执行以下命令
 ```
 slmgr -skms k1.yema.ga #设置服务
-slmgr -ipk 版本对应秘钥 #安装密钥
-`slmgr -ato` #激活系统
+slmgr -ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX #安装版本对应秘钥
+slmgr -ato #激活系统
 ```
 
 ### 备用服务
@@ -21,23 +22,8 @@ slmgr -ipk 版本对应秘钥 #安装密钥
 - `skms.netnr.eu.org`
 - `k1.yema.ga`
 
-### 安装服务
-- ref: <https://github.com/Wind4/vlmcsd/releases>
-- Windows：[vlmcs-Windows](https://s1.netnr.eu.org/static/app/vlmcs-Windows.zip)
 
-
-### 安装服务（Linux）
-```
-slmgr /skms k1.yema.ga && slmgr /ato
-```
-<https://teddysun.com/530.html>
-
-### 密钥 
-<https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys>
-
-[markdown](https://github.com/MicrosoftDocs/windowsserverdocs/blob/master/WindowsServerDocs/get-started/kms-client-activation-keys.md)
-
-### Windows Server（LTSC 版本）
+### Windows Server 密钥
 
 #### Windows Server 2022
 
@@ -62,8 +48,6 @@ Windows Server 2016 Datacenter | CB7KF-BWN84-R7R2Y-793K2-8XDDG
 Windows Server 2016 Standard   | WC2BQ-8NRM3-FDDYY-2BFGV-KHKQY
 Windows Server 2016 Essentials | JCKRF-N37P4-C2D82-9YXRT-4M63B
 
-### Windows Server (半年频道版本)
-
 #### Windows Server 版本 20H2、2004、1909、1903 和 1809
 
 操作系统版本 | KMS 客户端安装密钥
@@ -71,47 +55,6 @@ Windows Server 2016 Essentials | JCKRF-N37P4-C2D82-9YXRT-4M63B
 Windows Server Datacenter | 6NMRW-2C8FM-D24W7-TQWMY-CWH2D
 Windows Server Standard   | N2KJX-J94YW-TQVFB-DG9YT-724CC
 
-### Windows 10 (半年频道版本)
-
-操作系统版本 | KMS 客户端安装密钥
---- | ---
-Windows 10 专业版 | W269N-WFGWX-YVC9B-4J6C9-T83GX
-Windows 10 专业版 N	 | MH37W-N47XK-V7XM9-C7227-GCQG9
-Windows 10 专业工作站 | NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J
-Windows 10 专业工作站 N	 | 9FNHH-K3HBT-3W4TD-6383H-6XYWF
-Windows 10 专业教育版 | 6TP4R-GNPTD-KYYHQ-7B7DP-J447Y
-Windows 10 专业教育版 N | YVWGF-BXNMC-HTQYQ-CPQ99-66QFC
-Windows 10 教育版 | NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
-Windows 10 教育版 N | 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
-Windows 10 企业版 | NPPR9-FWDCX-D2C8J-H872K-2YT43
-Windows 10 企业版 N | DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
-Windows 10 企业版 G | YYVX9-NTFWV-6MDM3-9PT4T-4M68B
-Windows 10 企业版 G N | 44RPN-FTY23-9VTTB-MP9BX-T84FV
-
-### Windows 10 (LTSC/LTSB 版本)
-
-#### Windows 10 LTSC 2019
-
-操作系统版本 | KMS 客户端安装密钥
---- | ---
-Windows 10 企业版 LTSC 2019   | M7XTQ-FN8P6-TTKYV-9D4CC-J462D
-Windows 10 企业版 N LTSC 2019 | 92NFX-8DJQP-P6BBQ-THF9C-7CG2H
-
-#### Windows 10 LTSB 2016
-
-操作系统版本 | KMS 客户端安装密钥
---- | ---
-Windows 10 企业版 LTSB 2016   | DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ
-Windows 10 企业版 N LTSB 2016 | QFFDN-GRT3P-VKWWX-X7T3R-8B639
-
-#### Windows 10 LTSB 2015
-
-操作系统版本 | KMS 客户端安装密钥
---- | ---
-Windows 10 企业版 2015 LTSB   | WNMTR-4C88C-JK8YV-HQ7T2-76DF9
-Windows 10 企业版 2015 LTSB N | 2F77B-TNFGY-69QQF-B8YKP-D69TJ
-
-### 早期版本的 Windows Server
 
 #### Windows Server 版本 1803
 
@@ -173,7 +116,62 @@ Windows Server 2008 Datacenter | 7M67G-PC374-GR742-YH8V4-TCBY3
 不带 Hyper-V 的 Windows Server 2008 Datacenter | 22XQ2-VRXRG-P8D42-K34TD-G3QQC
 面向基于 Itanium 系统的 Windows Server 2008 | 4DWFP-JF3DJ-B7DTH-78FJB-PDRHK
 
-### 早期版本的 Windows
+
+### Windows 密钥
+#### Windows 11
+
+操作系统版本 | KMS 客户端安装密钥
+--- | ---
+Windows 11 专业版 | W269N-WFGWX-YVC9B-4J6C9-T83GX
+Windows 11 专业版 N	 | MH37W-N47XK-V7XM9-C7227-GCQG9
+Windows 11 专业工作站 | NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J
+Windows 11 专业工作站 N	 | 9FNHH-K3HBT-3W4TD-6383H-6XYWF
+Windows 11 专业教育版 | 6TP4R-GNPTD-KYYHQ-7B7DP-J447Y
+Windows 11 专业教育版 N | YVWGF-BXNMC-HTQYQ-CPQ99-66QFC
+Windows 11 教育版 | NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+Windows 11 教育版 N | 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+Windows 11 企业版 | NPPR9-FWDCX-D2C8J-H872K-2YT43
+Windows 11 企业版 N | DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+Windows 11 企业版 G | YYVX9-NTFWV-6MDM3-9PT4T-4M68B
+Windows 11 企业版 G N | 44RPN-FTY23-9VTTB-MP9BX-T84FV
+
+#### Windows 10 (半年频道版本)
+
+操作系统版本 | KMS 客户端安装密钥
+--- | ---
+Windows 10 专业版 | W269N-WFGWX-YVC9B-4J6C9-T83GX
+Windows 10 专业版 N	 | MH37W-N47XK-V7XM9-C7227-GCQG9
+Windows 10 专业工作站 | NRG8B-VKK3Q-CXVCJ-9G2XF-6Q84J
+Windows 10 专业工作站 N	 | 9FNHH-K3HBT-3W4TD-6383H-6XYWF
+Windows 10 专业教育版 | 6TP4R-GNPTD-KYYHQ-7B7DP-J447Y
+Windows 10 专业教育版 N | YVWGF-BXNMC-HTQYQ-CPQ99-66QFC
+Windows 10 教育版 | NW6C2-QMPVW-D7KKK-3GKT6-VCFB2
+Windows 10 教育版 N | 2WH4N-8QGBV-H22JP-CT43Q-MDWWJ
+Windows 10 企业版 | NPPR9-FWDCX-D2C8J-H872K-2YT43
+Windows 10 企业版 N | DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4
+Windows 10 企业版 G | YYVX9-NTFWV-6MDM3-9PT4T-4M68B
+Windows 10 企业版 G N | 44RPN-FTY23-9VTTB-MP9BX-T84FV
+
+#### Windows 10 LTSC 2019
+
+操作系统版本 | KMS 客户端安装密钥
+--- | ---
+Windows 10 企业版 LTSC 2019   | M7XTQ-FN8P6-TTKYV-9D4CC-J462D
+Windows 10 企业版 N LTSC 2019 | 92NFX-8DJQP-P6BBQ-THF9C-7CG2H
+
+#### Windows 10 LTSB 2016
+
+操作系统版本 | KMS 客户端安装密钥
+--- | ---
+Windows 10 企业版 LTSB 2016   | DCPHK-NFMTC-H88MJ-PFHPY-QJ4BJ
+Windows 10 企业版 N LTSB 2016 | QFFDN-GRT3P-VKWWX-X7T3R-8B639
+
+#### Windows 10 LTSB 2015
+
+操作系统版本 | KMS 客户端安装密钥
+--- | ---
+Windows 10 企业版 2015 LTSB   | WNMTR-4C88C-JK8YV-HQ7T2-76DF9
+Windows 10 企业版 2015 LTSB N | 2F77B-TNFGY-69QQF-B8YKP-D69TJ
 
 #### Windows 8.1
 
