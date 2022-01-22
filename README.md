@@ -224,7 +224,7 @@ cscript ospp.vbs /sethst:k1.yema.ga && cscript ospp.vbs /act
 ### Office 密钥列表
 - <https://docs.microsoft.com/en-us/DeployOffice/vlactivation/gvlks>
 
-### 原版下载
+### 原版软件下载
 - <https://msdn.itellyou.cn>
 - <https://tb.rg-adguard.net/public.php?lang=zh-CN>
 - <https://www.heidoc.net/joomla/technology-science/microsoft/67-microsoft-windows-and-office-iso-download-tool>
