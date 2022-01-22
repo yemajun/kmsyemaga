@@ -230,7 +230,7 @@ cscript ospp.vbs /sethst:k1.yema.ga && cscript ospp.vbs /act
 --- | ---
 [最新] Windows11 原版镜像（版本 21H2_Dec_2021 发布时间 2021-12-21） | ed2k://&#124;file&#124;zh-cn_windows_11_business_editions_updated_dec_2021_x64_dvd_ff426bea.iso&#124;5520793600&#124;F563A821456E1392358A2E081C2521D5&#124;/
 
-[最新] Windows 10 Enterprise LTSC 2021 (x64) 原版镜像 | ed2k://|file|SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO|5044211712|1555B7DCA052B5958EE68DB58A42408D|/
+[最新] Windows 10 Enterprise LTSC 2021 (x64) 原版镜像 | `ed2k://|file|SW_DVD9_WIN_ENT_LTSC_2021_64BIT_ChnSimp_MLF_X22-84402.ISO|5044211712|1555B7DCA052B5958EE68DB58A42408D|/`
 
 [推荐] Windows 10 Enterprise LTSC 2019 (x64) 原版镜像 | ed2k://|file|cn_windows_10_enterprise_ltsc_2019_x64_dvd_9c09ff24.iso|4478906368|E7C526499308841A4A6D116C857DB669|/
 
