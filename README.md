@@ -6,21 +6,20 @@
 ### 激活步骤一
 以管理员权限执行以下命令
 ```
-slmgr /skms k1.yema.ga && slmgr /ato
+slmgr /skms k1.to.run.place && slmgr /ato
 ```
 
 ### 激活步骤二
 以管理员权限分别执行以下命令
 ```
-slmgr -skms k1.yema.ga #设置服务
+slmgr -skms k1.to.run.place #设置服务
 slmgr -ipk XXXXX-XXXXX-XXXXX-XXXXX-XXXXX #安装版本对应秘钥
 slmgr -ato #激活系统
 ```
 
 ### 备用服务
-- `k1.yema.ga`
-- `k2.yema.ga`
-- `k3.yema.ga`
+- `k1.to.run.place`
+- `k2.to.run.place`
 
 
 ### Windows 密钥
@@ -216,7 +215,7 @@ cd "C:\Program Files\Microsoft Office\Office16"
 
 2. 以管理员权限执行以下命令
 ```
-cscript ospp.vbs /sethst:k1.yema.ga && cscript ospp.vbs /act
+cscript ospp.vbs /sethst:k1.to.run.place && cscript ospp.vbs /act
 ```
 
 ### Office 密钥
